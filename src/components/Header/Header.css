@@ -1,0 +1,36 @@
+.letter1 {
+  color: #27a365;
+  font-size: 25px;
+}
+.letter2 {
+  color: #5c5d5d;
+  font-size: 25px;
+}
+.searchContainer {
+  height: 45px;
+  background: #f2f2f2;
+  border-radius: 21px;
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  background: none;
+  max-width: 350px;
+  width: 100%;
+  outline: none;
+}
+
+.profile {
+  min-height: 30px;
+  max-width: 180px;
+  width: 100%;
+  display: flex;
+  gap: 1px;
+  font-weight: 600;
+}
+.heading {
+  width: 30%;
+}

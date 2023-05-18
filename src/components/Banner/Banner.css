@@ -1,0 +1,71 @@
+.banner-container {
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  min-height: 300px;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 18%;
+  left: 10%;
+  padding: 10px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.banner-text1 {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+  padding: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .banner-text {
+    bottom: 5%;
+    left: 2%;
+    font-size: 1.2rem;
+  }
+
+  .banner-text1 {
+    bottom: 1%;
+    left: 2%;
+    font-size: 0.8rem;
+  }
+}
+.joinnow {
+  position: absolute;
+  top: 12%;
+  right: 8%;
+  color: #ffffff;
+  background: none;
+  border: 0.8px solid #ffffff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.back {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  color: #ffffff;
+  background: none;
+  border: none;
+
+  font-size: 20px;
+}
