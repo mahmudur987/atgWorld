@@ -22,7 +22,7 @@ import { useState } from "react";
 const PostLeft = () => {
   const [show, Setshow] = useState(true);
   return (
-    <div className="container d-flex flex-column gap-lg-3 mb-lg-5">
+    <div className="container d-flex  flex-column gap-lg-3 mb-lg-5   ">
       <Card className="card">
         <Card.Img variant="top" src={img1} alt="Card Image" />
         <Card.Body>
@@ -177,7 +177,7 @@ const PostLeft = () => {
             </span>
             <span>
               {" "}
-              <HiOutlineLocationMarker /> Ahmedbad,India
+              <HiOutlineLocationMarker /> Nodia,India
             </span>
           </Card.Text>
           <p className="text-center text-info fw-bolder  border border-1 py-2">
